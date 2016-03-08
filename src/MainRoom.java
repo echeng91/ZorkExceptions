@@ -919,6 +919,7 @@ public class MainRoom {
 	public static void walkIntoWall()
 	{
 		System.out.print("You walk into a wall.");
+		steps++;
 		pw.println("You walked into a wall.");
 		takeDamage(2); // 0-2 damage from walking into a wall
 		checkSanity();
